@@ -16,3 +16,10 @@ document.body.style.backgroundColor = "#201F2E";
 let paragraph = document.createElement('p');
 paragraph.innerHTML = 'The text inside paragraph';
 document.body.appendChild(paragraph);
+
+
+//add new input form --0---- add to the html <button onclick="createInput"></button>
+function createInput(){
+  let input = document.createElement('Input')
+  document.body.appendChild(input)
+}
